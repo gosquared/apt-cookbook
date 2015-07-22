@@ -1,6 +1,8 @@
 Description
 ===========
 
+[![Join the chat at https://gitter.im/gosquared/apt-cookbook](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gosquared/apt-cookbook?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Configures various APT components on Debian-like systems. Also includes a LWRP.
 
 Requires the chef-extensions gem.
