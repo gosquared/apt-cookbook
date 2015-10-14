@@ -18,7 +18,7 @@ module Apt
       execute "install-key #{new_resource.key}" do
         command %{
           tmp_key=$(mktemp /tmp/key.XXXXX)
-          curl #{new_resource.key} -o $tmp_key
+          curl -L #{new_resource.key} -o $tmp_key
           apt-key add $tmp_key
           rm $tmp_key
         }
